@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* General Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     padding: 0;  
     margin: 0;
@@ -20,8 +21,8 @@ header {
 
 main {
     min-height: 100vh;
-    /*display: flex;*/
-    /*flex-direction: column;*/
+    display: flex;*/
+    flex-direction: column;
     margin: 10px;
 }
 section {
@@ -97,3 +98,17 @@ section h2 {
     color: #000;
     
 }
+
+
+
+
+
+/* @media screen and (min-width: 768px) {
+    .nav-menu-toggle {
+        display: flex;
+        flex-direction: row;
+        justify-items: flex-start;
+
+    }
+} */
+ 
