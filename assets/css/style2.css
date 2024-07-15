@@ -1,10 +1,35 @@
+/* Title Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* General Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Monsterrat', sans-serif;
 }
 .header {
     background-color: coral;
     min-height: 100px;
+}
+
+.header > h1 {
+    padding: 10px;
+    font-family: 'Bebas Neue', monospace;
+    letter-spacing: 4px;
+}
+
+.footer > h2 {
+    padding: 10px;
+    font-family: 'Bebas Neue', monospace;
+    letter-spacing: 4px;
+}
+
+.aside h2, .section > h2 {
+    padding: 10px;
+    margin: 15px;
+    font-family: 'Bebas Neue', monospace;
+    letter-spacing: 4px;
 }
 
 .main {
@@ -17,7 +42,8 @@
 .footer {
     background-color: coral;
     min-height: 100px;
-    margin: 2px 0 0 0;
+    padding: 10px 0;
+    margin: 0;
 }
 
 .container {
@@ -26,6 +52,11 @@
     text-align: center;
     padding: 20px;
     margin: 2px;
+}
+
+.section1, .section2, .aside1, .aside2 {
+    text-align: justify;
+    line-height: 30px;;
 }
 
 .section1, .section2 {
