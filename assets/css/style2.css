@@ -59,6 +59,19 @@
     text-align: center;
     border-radius: 20px;
 }
+.nav-bar a:hover {
+    padding: 10px;
+    font-family: 'Bebas Neue', monospace;
+    letter-spacing: 3px;
+    text-decoration: none;
+    background-color: #000;
+    color: coral;
+    display: block;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+   
+}
 .footer > h2 {
     padding: 10px;
     font-family: 'Bebas Neue', monospace;
@@ -75,7 +88,7 @@
 
 
 .main {
-    background-color: gold;
+    background-color: rgb(249, 170, 50);
     min-height: 100vh;
 }
 
