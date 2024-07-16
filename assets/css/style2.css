@@ -26,6 +26,22 @@
 
     
 }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: rgb(249, 170, 50);
+    font-size: 50px;
+    padding: 20px;
+
+    
+    
+}
 
 .header > h1 {
     padding: 10px;
